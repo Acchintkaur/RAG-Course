@@ -23,6 +23,10 @@ This repo is a modular, notebook-driven course that breaks a full RAG pipeline i
 | 4 | [`4_Search`](./4_Search) | Similarity search fundamentals (cosine, dot product, hybrid search) |
 | 5 | [`5_Vector_Store`](./5_Vector_Store) | Storing and querying embeddings with a vector database (Chroma) |
 | 6 | [`6_Basic_RAG_Pipeline`](./6_Basic_RAG_Pipeline) | Putting it all together into an end-to-end RAG system |
+| 7 | [`7_AdvanceRAG_MultiQuery`](./7_AdvanceRAG_MultiQuery) | Generating multiple query variations to improve retrieval recall |
+| 8 | [`8_AdvancedRAG_ContextualCompression`](./8_AdvancedRAG_ContextualCompression) | Compressing/filtering retrieved context to keep only what's relevant |
+| 9 | [`9_AdvanceRAG_HybridSearch`](./9_AdvanceRAG_HybridSearch) | Combining keyword and semantic search for better retrieval |
+| 10 | [`10_Memory`](./10_Memory) | Adding conversational memory to a RAG-powered chat system |
 
 ```mermaid
 flowchart LR
@@ -31,7 +35,8 @@ flowchart LR
     C --> D[🗄️ Vector Store]
     D --> E[🔎 Search]
     E --> F[🤖 RAG Pipeline]
-    F --> G[💬 Answer]
+    F --> G[🚀 Advanced RAG]
+    G --> H[💬 Answer]
 ```
 
 ## 🚀 Quickstart
@@ -84,6 +89,10 @@ RAG Course/
 ├── 4_Search/
 ├── 5_Vector_Store/
 ├── 6_Basic_RAG_Pipeline/
+├── 7_AdvanceRAG_MultiQuery/
+├── 8_AdvancedRAG_ContextualCompression/
+├── 9_AdvanceRAG_HybridSearch/
+├── 10_Memory/
 ├── src/
 ├── .env.example
 ├── .gitignore
@@ -108,7 +117,7 @@ Contributions, issues, and suggestions are welcome! Feel free to:
 
 ## 📄 License
 
-This project is licensed under the [MIT License](./LICENSE).
+No license has been added yet. Until one is, the default is "all rights reserved" under copyright law — others can view the code but not legally reuse, modify, or redistribute it. To allow that, add an [MIT License](https://choosealicense.com/licenses/mit/) (or another of your choosing) via **GitHub → Add file → Create new file → name it `LICENSE`**, or through the "Add a license" prompt on your repo's homepage.
 
 ## 🙏 Acknowledgements
 
